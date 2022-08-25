@@ -16,11 +16,6 @@ span {
     color: gray;
 }
 
-img {
-    height: 180px;
-    width: 180px;    
-}
-
 section, header {
     padding: 10px 60px 20px 60px;
     background-color: white;
@@ -42,12 +37,25 @@ header li {
     margin-bottom: 15px;
 }
 
-header address img {
+.address-icon {
     width: 16px;
     height: 16px;
     background-color: cornflowerblue;
     margin-right: 10px;
     padding: 8px;
     vertical-align: middle;
+}
+
+.circle {
     border-radius: 50%;
+}
+
+.profile-picture {
+    height: 180px;
+    width: 180px; 
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
 }
