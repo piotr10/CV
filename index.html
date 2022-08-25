@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <link rel="stylesheet" href="style.css" /> <!--reguły CSS-->
-        <title>Piotr Czerski - Resume</title><!--Tytuł strony-->
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <!--reguły CSS-->
+    <title>Piotr Czerski - Resume</title>
+    <!--Tytuł strony-->
+</head>
+
+<body>
+    <header>
         <img src="images\avatar.png" width="150px" height="150px" />
         <!--img czyli image - dodajemy zdjęcie-->
         <!--src to atrybut, dzięki któremu odnosimy się do lokalizacji zdjęcia-->
@@ -15,105 +20,136 @@
         <!--h1 to tak nagłówka, h to skrót od "heading"-->
         <span>BACKEND DEVELOPER</span>
         <!--Komentarz jednoliniowy, który nie musi być zbytnio wyróżniony-->
+    </header>
+    <main>
+        <section>
+            <h2>SUMMARY</h2>
+            <p>
+                <!--Dłuższy, niewyróżniający się tekst-->
+                Hi! My name is <b>Piotr</b>, I am an open-minded, motivated and self-driven C# developer.
+                I enjoy solving problems, coming up with real-life solutions and thrive
+                in a dynamic, challenging work environment that allows me to grow.
+                I worked as a surveyor, freight forwarder, payroll and personal specialist
+                and now I work as a junior sales analyst.
+                Thanks to this experience, I have become flexible and
+                I can easily and quickly adapt to a new situation.
+            </p>
+        </section>
 
-        <h2>SUMMARY</h2>
-        <p>
-            <!--Dłuższy, niewyróżniający się tekst-->
-            Hi! My name is <b>Piotr</b>, I am an open-minded, motivated and self-driven C# developer.
-            I enjoy solving problems, coming up with real-life solutions and thrive
-            in a dynamic, challenging work environment that allows me to grow.
-            I worked as a surveyor, freight forwarder, payroll and personal specialist
-            and now I work as a junior sales analyst.
-            Thanks to this experience, I have become flexible and
-            I can easily and quickly adapt to a new situation.
-        </p>
-
-        <h2>EXPERIENCE</h2>
-        <ul>
-            <li>
-                <!--tak ten oznacza list item wyświetla listę-->
-                <p>Optima Logistics Group S.A.</p>
-                <p><b>Junior Sales Analyst</b>, May 2021 – Present</p>
-            </li>
-            <li>
-                <p>Optima Logistics Group S.A.</p>
-                <p><b>Payroll & Personnel Specialist</b>, December 2018 – April 2021</p>
-                <p>
-                    -Payroll agenda for internal 800 employees in SAGE payroll system,
-                    -Care for the correctness of personal files,
-                    -Settlement of freight forwarders,
-                    -Employee time-off record (vacation, illness, etc.),
-                    -Follow up for time and attendance approvals,
-                    -Preaparing reports for upper managment and finance department,
-                    - Good theoretical knowledge and practical skills of SAGE and
+        <section>
+            <h2>EXPERIENCE</h2>
+            <ul>
+                <li>
+                    <!--tak ten oznacza list item wyświetla listę-->
+                    <p>Optima Logistics Group S.A.</p>
+                    <p><b>Junior Sales Analyst</b>, May 2021 – Present</p>
+                </li>
+                <li>
+                    <p>Optima Logistics Group S.A.</p>
+                    <p><b>Payroll & Personnel Specialist</b>, December 2018 – April 2021</p>
+                    <p>
+                <li>-Payroll agenda for internal 800 employees in SAGE payroll system,</li>
+                <li>-Care for the correctness of personal files,</li>
+                <li>-Settlement of freight forwarders,</li>
+                <li>-Employee time-off record (vacation, illness, etc.),</li>
+                <li>-Follow up for time and attendance approvals,</li>
+                <li>-Preaparing reports for upper managment and finance department,</li>
+                <li>-Good theoretical knowledge and practical skills of SAGE and
                     MS Office tools (especially Excel, Word, Outlook)-Payroll agenda
-                    for internal 800 employees in SAGE payroll system,
-                    -Care for the correctness of personal files,
-                    -Settlement of freight forwarders,
-                    -Employee time-off record (vacation, illness, etc.),
-                    -Follow up for time and attendance approvals,
-                    -Preaparing reports for upper managment and finance department,
-                    - Good theoretical knowledge and practical skills of SAGE and MS Office tools
-                    (especially Excel, Word, Outlook)
+                    for internal 800 employees in SAGE payroll system,</li>
+                <li>-Care for the correctness of personal files,</li>
+                <li>-Settlement of freight forwarders,</li>
+                <li>-Employee time-off record (vacation, illness, etc.),</li>
+                <li>-Follow up for time and attendance approvals,</li>
+                <li>-Preaparing reports for upper managment and finance department,</li>
+                <li>-Good theoretical knowledge and practical skills of SAGE and MS Office tools
+                    (especially Excel, Word, Outlook)</li>
                 </p>
-            </li>
-            <li>
-                <p>Optima Logistics Group S.A.</p>
-                <p><b>Junior International Freight Forwarder</b>, August 2018 – November 2018</p>
-            </li>
-            <p>G4 Geodezja</p>
-            <p><b>Land Surveyor</b>, April 2016 – May 2018</p>
-        </ul>
+                </li>
+                <li>
+                    <p>Optima Logistics Group S.A.</p>
+                    <p><b>Junior International Freight Forwarder</b>, August 2018 – November 2018</p>
+                </li>
+                <li>
+                    <p>G4 Geodezja</p>
+                    <p><b>Land Surveyor</b>, April 2016 – May 2018</p>
+                </li>
+            </ul>
+        </section>
 
-        <h2>EDUCATION</h2>
-        <ul>
-            <li>
-                <a href="https://international.tu.kielce.pl/">Kielce University of Technology</a>
-                <!--a jest to tag odnośnika do innej strony "a" od słowa anchor czyli kotwica-->
-                <!--href jest to atrybut dzięki, któemu mozemy odnieść się do linku strony-->
-                <b>Geodesy and Cartography (Bachelor of Engineering)</b>, 3rd years
-            </li>
-        </ul>
+        <section>
+            <h2>EDUCATION</h2>
+            <ul>
+                <li>
+                    <a href="https://international.tu.kielce.pl/">Kielce University of Technology</a>
+                    <!--a jest to tag odnośnika do innej strony "a" od słowa anchor czyli kotwica-->
+                    <!--href jest to atrybut dzięki, któemu mozemy odnieść się do linku strony-->
+                    <b>Geodesy and Cartography (Bachelor of Engineering)</b>, 3rd years
+                </li>
+            </ul>
+        </section>
 
-        <h2>SKILLS</h2>
-        <h3>Back-End</h3>
-        <ul>
-            <li>ASP.NET</li>
-            <li>ASP.NET Web API</li>
-            <li>RESTful API</li>
-            <li>ASP.NET Core MVC</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li>MySql</li>
-        </ul>
-        <h3>Front-End</h3>
-        <ul>
-            <li>JavaScrip</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
-        </ul>
-        <h3>Tools & Methods</h3>
-        <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Azure DevOps</li>
-            <li>CI/CD</li>
-            <li>Automapper</li>
-            <li>TDD</li>
-            <li>DDD</li>
-            <li>CQRS</li>
-            <li>Swagger</li>
-            <li>Postman</li>
-            <li>Identity Server</li>
-        </ul>
-        <h2>PROJECTS</h2>
+        <section>
+            <h2>SKILLS</h2>
+            <h3>Back-End</h3>
+            <ul>
+                <li>ASP.NET</li>
+                <li>ASP.NET Web API</li>
+                <li>RESTful API</li>
+                <li>ASP.NET Core MVC</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>MySql</li>
+            </ul>
+            <h3>Front-End</h3>
+            <ul>
+                <li>JavaScrip</li>
+                <li>CSS3</li>
+                <li>HTML5</li>
+            </ul>
+            <h3>Tools & Methods</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Azure DevOps</li>
+                <li>CI/CD</li>
+                <li>Automapper</li>
+                <li>TDD</li>
+                <li>DDD</li>
+                <li>CQRS</li>
+                <li>Swagger</li>
+                <li>Postman</li>
+                <li>Identity Server</li>
+                <li>Chrome DevTools</li>
+            </ul>
+        </section>
 
-        <h2>HOBBIES AND INTERESTS</h2>
-        <ul>
-            <li>Programming</li>
-            <li>Games</li>
-            <li>Making short movies</li>
-        </ul>
-    </body>
+        <section>
+            <h2>PROJECTS</h2>
+            <ul>
+                <li>Bookstore managment API</li>
+                <li>Holidayview</li>
+                <li>Rock vs paper vs scissors</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>LANGUAGES</h2>
+            <ul>
+                <li>English - B2</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>HOBBIES AND INTERESTS</h2>
+            <ul>
+                <li>Programming</li>
+                <li>Games</li>
+                <li>Making short movies</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
 </html>
