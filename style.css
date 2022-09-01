@@ -85,3 +85,33 @@ header li {
 .line-height-p {
     line-height: 1.5;
 }
+
+p {
+    line-height: 1.5;
+}
+
+.cs-download-link {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.cs-download-link:hover { 
+    color:white;
+    background-color: cornflowerblue;
+}
+
+.cs-download-link:focus {
+    outline: thin dotted;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.cs-download-link:active {
+    text-decoration: underline;
+}
