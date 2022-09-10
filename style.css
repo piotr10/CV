@@ -6,11 +6,11 @@ body {
 
 h1 {
     font-size: 36px;
-    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 26px;
+    text-align: center;
 }
 
 h3 {
@@ -21,30 +21,24 @@ span {
     color: gray;
 }
 
-.container {
-    box-shadow: 0 0 20px grey;
-    width: 960px;
-    margin: 0px auto;
-    background-color: white;
-}
-
 section, header {
     padding: 10px 60px 20px 60px;
-    
+    background-color: white;
+    width: 960px;
+    margin: 0px auto;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 60px;
 }
 
 header ul {
     list-style: none;
 }
 
-li {
+header li {
     margin-bottom: 15px;
 }
 
@@ -66,38 +60,49 @@ li {
     width: 180px; 
 }
 
-.hobbies {
-    list-style: none;
+.projects {
     padding: 0;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.hobbies li {
-    width: 33.3;
+.project {
+    flex-basis: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 40px;
 }
-
-.hobbies div {
-    margin-left: 20px;
+.project h3 {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.hobbies-icon {
-    width: 32px;
-    height: 32px;
+.project p {
+    color: grey;
+    line-height: 1.5;
+}
+
+.skill p {
+    color: grey;
+    line-height: 0.5;
+    text-align: left;
+}
+
+.education-languages-p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.project div {
+    margin-left: 20px;
 }
 
 .line-height-p {
     line-height: 1.5;
 }
 
-p {
-    line-height: 1.5;
-}
-
-.cv-download-link {
+.cs-download-link {
     border: 2px solid cornflowerblue;
     color: black;
     text-decoration: none;
@@ -106,20 +111,23 @@ p {
     margin-top: 20px;
     border-radius: 26px;
     transition: background-color 0.5s, color 0.5s;
-    box-shadow: 0 0 20px grey;
 }
 
-.cv-download-link:hover { 
+.cs-download-link:hover { 
     color:white;
     background-color: cornflowerblue;
 }
 
-.cv-download-link:focus {
+.cs-download-link:focus {
     outline: thin dotted;
     color: white;
     background-color: cornflowerblue;
 }
 
-.cv-download-link:active {
+.cs-download-link:active {
     text-decoration: underline;
+}
+
+.skill {
+    margin-right: 20px;
 }
