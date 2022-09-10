@@ -131,3 +131,36 @@ header li {
 .skill {
     margin-right: 20px;
 }
+
+.see-project {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;
+    align-items: auto;
+}
+
+.see-project:hover { 
+    color:white;
+    background-color: cornflowerblue;
+}
+
+.see-project:focus {
+    outline: thin dotted;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.see-project:active {
+    text-decoration: underline;
+}
+
+.div-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
