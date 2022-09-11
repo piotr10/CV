@@ -6,283 +6,231 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="slide.css" />
-    <link rel="stylesheet" href="topPage.css" />
+    <link rel="stylesheet" href="topPage.css" /> 
     <!--reguły CSS-->
     <title>Piotr portfolio</title>
     <!--Tytuł strony-->
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <img class="profile-picture circle" src="images\avatar.png" />
-            <!--img czyli image - dodajemy zdjęcie-->
-            <!--src to atrybut, dzięki któremu odnosimy się do lokalizacji zdjęcia-->
-            <!--atrybuty width i height służą do ustalenia rozmiarów obrazków-->
+    <header class="div-center">
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section class="welcome-section">
             <div>
-                <h1>Piotr Czerski</h1>
-                <!--h1 to tak nagłówka, h to skrót od "heading"-->
-                <span>BACKEND DEVELOPER</span>
-                <!--Komentarz jednoliniowy, który nie musi być zbytnio wyróżniony-->
-                <div>
-                    <a class="cs-download-link"
-                        href="https://store3.gofile.io/download/a634439c-6b20-40a4-ba60-47e5f29de788/Piotr_Czerski_CV.pdf">Download
-                        Resume</a>
-                </div>
+                <h1 class="div-center">Hey there. I'm Piotr</h1> 
+                <h2 class="fancy">
+                    I'am an open-minded, motivated and self-driven C# developer. I enjoy solving problems, coming up with real-life solutions and thrive in a dynamic, challenging work environment that allows me to grow. I worked as a surveyor, freight forwarder, payroll and personal specialist and now I work as a junior sales analyst. Thanks to this experience, I have become flexible and I can easily and quickly adapt to a new situation.
+                </h2> 
+            </div>            
+            <ul class="top-icons">
+                <li class="top-icons-li">
+                    <address>
+                        <a href="mailto:piotrczerski@gmail.com">
+                            <img src="images\email.png" alt="Piotr email">
+                        </a>
+                    </address>
+                </li>
+                <li class="top-icons-li">
+                    <a href="https://www.linkedin.com/in/piotr-czerski/">
+                        <img src="images\linkedin.png" alt="Piotr Linkedin">
+                    </a>
+                </li>
+                <li class="top-icons-li">
+                    <a href="https://github.com/piotr10/">
+                        <img src="images\github.png" alt="Piotr Github">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h1>My Recent Works</h1>
+            <ul class="projects">
+                <li class="project">
+                    <div>
+                        <h2>Bookstore managment API</h2>
+                        <p class="education-languages-p">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Culpa nam dolores quibusdam possimus animi ullam voluptatem
+                            voluptatum rem? Rerum perferendis atque reprehenderit
+                            voluptatem doloremque delectus a fugit architecto laboriosam
+                            voluptas!
+                        </p>
+                        <div class="slideshow-container">
+                            <div class="mySlides1">
+                                <img src="images/book_1.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides1">
+                                <img src="images/book_2.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides1">
+                                <img src="images/book_3.jpg" style="width:100%">
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                        </div>
+                        <div class="div-center">
+                            <a class="see-project" href="https://github.com/piotr10/BookstoreManagmentAPI">See
+                                Source
+                                <img src="images/icon-git.png">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div>
+                        <h2>Holidayview</h2>
+                        <p class="education-languages-p">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Culpa nam dolores quibusdam possimus animi ullam voluptatem
+                            voluptatum rem? Rerum perferendis atque reprehenderit
+                            voluptatem doloremque delectus a fugit architecto laboriosam
+                            voluptas!
+                        </p>
+                        <div class="slideshow-container">
+                            <div class="mySlides2">
+                                <img src="images/holiday_1.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides2">
+                                <img src="images/holiday_2.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides2">
+                                <img src="images/holiday_3.jpg" style="width:100%">
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                        </div>
+                        <div class="div-center">
+                            <a class="see-project" href="https://github.com/piotr10/Holidayview">See Source
+                                <img src="images/icon-git.png">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div>
+                        <h2>Rock vs paper vs scissors</h2>
+                        <p class="education-languages-p">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Culpa nam dolores quibusdam possimus animi ullam voluptatem
+                            voluptatum rem? Rerum perferendis atque reprehenderit
+                            voluptatem doloremque delectus a fugit architecto laboriosam
+                            voluptas!
+                        </p>
+                        <div class="slideshow-container">
+                            <div class="mySlides3">
+                                <img src="images/game_1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides3">
+                                <img src="images/game_2.png" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides2(-1, 0)">&#10094;</a>
+                            <a class="next" onclick="plusSlides2(1, 0)">&#10095;</a>
+                        </div>
+                        <div class="div-center">
+                            <a class="see-project"
+                                href="https://github.com/piotr10/Rock-vs-paper-vs-scissors-master">See Source
+                                <img src="images/icon-git.png">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>About me</h1>
+            <p class="line-height-p">
+                Hi! My name is <b>Piotr</b>, I am an open-minded, motivated and self-driven C# developer.
+                I enjoy solving problems, coming up with real-life solutions and thrive
+                in a dynamic, challenging work environment that allows me to grow.
+                I worked as a surveyor, freight forwarder, payroll and personal specialist
+                and now I work as a junior sales analyst.
+                Thanks to this experience, I have become flexible and
+                I can easily and quickly adapt to a new situation.
+            </p>
+            <div class="div-center">
+                <a class="cs-download-link"
+                    href="https://store3.gofile.io/download/a634439c-6b20-40a4-ba60-47e5f29de788/Piotr_Czerski_CV.pdf">Get
+                    my
+                    Resume</a>
             </div>
-            <address>
-                <ul>
-                    <li><img class="address-icon circle" src="images\phone.png"><b>Phone:</b><a
-                            href="tel:123 456 789">123 456 789</a></li>
-                    <li><img class="address-icon circle" src="images\mail.png"><b>Email:</b><a
-                            href="mailto:piotrczerski@gmail.com">piotrczerski@gmail.com</a></li>
-                    <li><img class="address-icon circle" src="images\birthday.png"><b>Date of birth:</b>10-02-1993</li>
-                    <li><img class="address-icon circle" src="images\pin.png"><b>Address:</b> Piaseczno</li>
-                </ul>
-            </address>
-        </header>
-        <main>
-            <section>
-                <h2>About me</h2>
-                <p class="line-height-p">
-                    <!--Dłuższy, niewyróżniający się tekst-->
-                    Hi! My name is <b>Piotr</b>, I am an open-minded, motivated and self-driven C# developer.
-                    I enjoy solving problems, coming up with real-life solutions and thrive
-                    in a dynamic, challenging work environment that allows me to grow.
-                    I worked as a surveyor, freight forwarder, payroll and personal specialist
-                    and now I work as a junior sales analyst.
-                    Thanks to this experience, I have become flexible and
-                    I can easily and quickly adapt to a new situation.
-                </p>
-            </section>                  
-            <section>
-                <h2>My Recent Works</h2>
-                <ul class="projects">
-                    <li class="project">
-                        <div>
-                            <h3>Bookstore managment API</h3>
-                            <p class="education-languages-p">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Culpa nam dolores quibusdam possimus animi ullam voluptatem
-                                voluptatum rem? Rerum perferendis atque reprehenderit
-                                voluptatem doloremque delectus a fugit architecto laboriosam
-                                voluptas!
-                            </p>
-                            <div class="slideshow-container">
-                                <div class="mySlides1">
-                                    <img src="images/book_1.jpg" style="width:100%">
-                                </div>
-
-                                <div class="mySlides1">
-                                    <img src="images/book_2.jpg" style="width:100%">
-                                </div>
-
-                                <div class="mySlides1">
-                                    <img src="images/book_3.jpg" style="width:100%">
-                                </div>
-
-                                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-                                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-                            </div>
-                            <div class="div-center">
-                                <a class="see-project" href="https://github.com/piotr10/BookstoreManagmentAPI">See Source
-                                    <img src="images/icon-git.png">
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div>
-                            <h3>Holidayview</h3>
-                            <p class="education-languages-p">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Culpa nam dolores quibusdam possimus animi ullam voluptatem
-                                voluptatum rem? Rerum perferendis atque reprehenderit
-                                voluptatem doloremque delectus a fugit architecto laboriosam
-                                voluptas!
-                            </p>
-                            <div class="slideshow-container">
-                                <div class="mySlides2">
-                                    <img src="images/holiday_1.jpg" style="width:100%">
-                                </div>
-
-                                <div class="mySlides2">
-                                    <img src="images/holiday_2.jpg" style="width:100%">
-                                </div>
-
-                                <div class="mySlides2">
-                                    <img src="images/holiday_3.jpg" style="width:100%">
-                                </div>
-
-                                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-                                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-                            </div>
-                            <div class="div-center">
-                                <a class="see-project" href="https://github.com/piotr10/Holidayview">See Source
-                                    <img src="images/icon-git.png">
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div>
-                            <h3>Rock vs paper vs scissors</h3>
-                            <p class="education-languages-p">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Culpa nam dolores quibusdam possimus animi ullam voluptatem
-                                voluptatum rem? Rerum perferendis atque reprehenderit
-                                voluptatem doloremque delectus a fugit architecto laboriosam
-                                voluptas!
-                            </p>
-                            <div class="slideshow-container">
-                                <div class="mySlides3">
-                                    <img src="images/game_1.png" style="width:100%">
-                                </div>
-                                <div class="mySlides3">
-                                    <img src="images/game_2.png" style="width:100%">
-                                </div>
-                                <a class="prev" onclick="plusSlides2(-1, 0)">&#10094;</a>
-                                <a class="next" onclick="plusSlides2(1, 0)">&#10095;</a>
-                            </div>
-                            <div class="div-center">
-                                <a class="see-project" href="https://github.com/piotr10/Rock-vs-paper-vs-scissors-master">See Source
-                                    <img src="images/icon-git.png">
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>Skills</h2> 
-                <ul class="skills-section">
-
-                    <li class="skills">
-                        <img src="images/backend.png"/>
-                        <h3>Back-End</h3>
-                        <ul class="skill-list">
-                            <li class="skill-item">ASP.NET</li>
-                            <li class="skill-item">ASP.NET Web API</li>
-                            <li class="skill-item">RESTful API</li>
-                            <li class="skill-item">ASP.NET Core MVC</li>
-                            <li class="skill-item">MySql</li>
-                        </ul>
-                    </li>
-
-                    <li class="skills">
-                        <img src="images/frontend.png"/>
-                        <h3>Front-End</h3>
-                        <ul class="skill-list">
-                            <li class="skill-item">JavaScrip</li>
-                            <li class="skill-item">CSS3</li>
-                            <li class="skill-item">HTML5</li>
-                        </ul>
-                    </li>
-
-                    <li class="skills">
-                        <img src="images/tools.png"/>
-                        <h3>Tools & Methods</h3>
-                        <ul class="skill-list">
-                            <li class="skill-item">Git</li>
-                            <li class="skill-item">GitHub</li>
-                            <li class="skill-item">Azure DevOps</li>
-                            <li class="skill-item">CI/CD</li>
-                            <li class="skill-item">Automapper</li>
-                            <li class="skill-item">TDD</li>
-                            <li class="skill-item">DDD</li>
-                            <li class="skill-item">CQRS</li>
-                            <li class="skill-item">Swagger</li>
-                            <li class="skill-item">Postman</li>
-                            <li class="skill-item">Identity Server</li>
-                            <li class="skill-item">Chrome DevTools</li>
-                        </ul>
-                    </li>                 
-                </ul>                
-            </section>
-            <section>
-                <h2>Experiens</h2>
-                <!--tak ten oznacza list item wyświetla listę-->
-                <h3><a href="https://www.optimalg.com/">Optima Logistics Group S.A.</a></h3>
-                <p><b>Junior Sales Analyst</b>, May 2021 – Present</p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <h3><a href="https://www.optimalg.com/">Optima Logistics Group S.A.</a></h3>
-                <p><b>Payroll & Personnel Specialist</b>, December 2018 – April 2021</p>
-                <ul>
-                    <li>Payroll agenda for internal 800 employees in SAGE payroll system</li>
-                    <li>Care for the correctness of personal files</li>
-                    <li>Settlement of freight forwarders</li>
-                    <li>Employee time-off record (vacation, illness, etc.)</li>
-                    <li>Follow up for time and attendance approvals</li>
-                    <li>Preaparing reports for upper managment and finance department</li>
-                    <li>Good theoretical knowledge and practical skills of SAGE and
-                        MS Office tools (especially Excel, Word, Outlook)-Payroll agenda
-                        for internal 800 employees in SAGE payroll system</li>
-                    <li>Care for the correctness of personal files</li>
-                    <li>Settlement of freight forwarders</li>
-                    <li>Employee time-off record (vacation, illness, etc.)</li>
-                    <li>Follow up for time and attendance approvals</li>
-                    <li>Preaparing reports for upper managment and finance department</li>
-                    <li>Good theoretical knowledge and practical skills of SAGE and MS Office tools
-                        (especially Excel, Word, Outlook)</li>
-                </ul>
-                <h3><a href="https://www.optimalg.com/">Optima Logistics Group S.A.</a></h3>
-                <p><b>Junior International Freight Forwarder</b>, August 2018 – November 2018</p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <h3><a href="http://g4geodezja.pl/">G4 Geodezja</a></h3>
-                <p><b>Land Surveyor</b>, April 2016 – May 2018</p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>    
-            <section>
-                <h3>Education & languages</h3>
-                <p>
-                    <a href="https://international.tu.kielce.pl/">Kielce University of Technology</a>
-                    <b>Geodesy and Cartography (Bachelor of Engineering)</b>, 3rd years
-                </p>
-                <p>English - B2</p>
-                <!--a jest to tag odnośnika do innej strony "a" od słowa anchor czyli kotwica-->
-                <!--href jest to atrybut dzięki, któemu mozemy odnieść się do linku strony-->
-            </section>
-            <section>
-                <h3>Hobbies & interests</h3>
-                <ul class="project">
-                    <li class="project">
-                        <img src="images\code.png" aria-hidden="true">
-                        <div>
-                            <h3>Programming</h3>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <img src="images\gamepad.png" aria-hidden="true">
-                        <div>
-                            <h3>Games</h3>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <img src="images\video.png" aria-hidden="true">
-                        <div>
-                            <h3>Making short movies</h3>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </div>
-    <script src="app.js"></script>
+        </section>
+        <section>
+            <h1>Skills</h1>
+            <ul class="skills-section">
+                <li class="skills">
+                    <img src="images/backend.png" />
+                    <h2>Back-End</h2>
+                    <ul class="skill-list">
+                        <li class="skill-item">ASP.NET</li>
+                        <li class="skill-item">ASP.NET Web API</li>
+                        <li class="skill-item">RESTful API</li>
+                        <li class="skill-item">ASP.NET Core MVC</li>
+                        <li class="skill-item">MySql</li>
+                    </ul>
+                </li>
+                <li class="skills">
+                    <img src="images/frontend.png" />
+                    <h2>Front-End</h2>
+                    <ul class="skill-list">
+                        <li class="skill-item">JavaScrip</li>
+                        <li class="skill-item">CSS3</li>
+                        <li class="skill-item">HTML5</li>
+                    </ul>
+                </li>
+                <li class="skills">
+                    <img src="images/tools.png" />
+                    <h2>Tools & Methods</h2>
+                    <ul class="skill-list">
+                        <li class="skill-item">Git</li>
+                        <li class="skill-item">GitHub</li>
+                        <li class="skill-item">Azure DevOps</li>
+                        <li class="skill-item">CI/CD</li>
+                        <li class="skill-item">Automapper</li>
+                        <li class="skill-item">TDD</li>
+                        <li class="skill-item">DDD</li>
+                        <li class="skill-item">CQRS</li>
+                        <li class="skill-item">Swagger</li>
+                        <li class="skill-item">Postman</li>
+                        <li class="skill-item">Identity Server</li>
+                        <li class="skill-item">Chrome DevTools</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>        
+    </main>    
 </body>
-
+<footer>
+    <ul class="footer-icons">
+        <li>
+            <address>
+                <a href="mailto:piotrczerski@gmail.com">
+                    <img src="images\email.png" alt="Piotr email">
+                </a>
+            </address>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/piotr-czerski/">
+                <img src="images\linkedin.png" alt="Piotr Linkedin">
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/piotr10/">
+                <img src="images\github.png" alt="Piotr Github">
+            </a>
+        </li>
+    </ul>
+</footer>
+<script src="./fancy.js" async></script>
+<script src="./app.js"></script>
 </html>
