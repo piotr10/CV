@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(./font/static/JosefinSans-Regular.ttf);
+}
 * {
     box-sizing: border-box !important;;
     margin: 0%;
@@ -17,12 +21,14 @@ main {
 }
 
 footer {
-    margin-top: 170px;
+    margin-top:70px;
+    margin-bottom: -50px;
     padding: auto;
 }
 
 h1 {
-    font-size: 36px;
+    font-family: 'CustomFont';
+    font-size: 45px;
     margin-bottom: 40px;
     margin-bottom: 20px;
     margin-top: 40px;
@@ -30,6 +36,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'CustomFont';
     font-size: 26px;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -110,7 +117,7 @@ header li {
 .education-languages-p {
     line-height: 1.5;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     margin-top: 20px;
 }
 
@@ -119,6 +126,7 @@ header li {
 }
 
 .line-height-p {
+    margin-top:20px;
     line-height: 1.5;
     text-align: center;
 }
