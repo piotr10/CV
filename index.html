@@ -6,26 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="slide.css" />
-    <link rel="stylesheet" href="topPage.css" /> 
+    <link rel="stylesheet" href="topPage.css" />
+    <link rel="stylesheet" href="toggleButton.css" />
+    <link rel="stylesheet" href="toggleButton2.css" />
+    <link rel="stylesheet" href="toggleButton3.css" />
     <!--reguły CSS-->
     <title>Piotr portfolio</title>
     <!--Tytuł strony-->
 </head>
 
 <body>
-    <header class="div-center">
-        <nav>
-
+    <header class="navigator-bar">
+        <nav class="navigator-bar">
+            <ul class="nav-links">
+                <li><a class="nav-links-name" href="#projects-section">Portflio</a></li>
+                <li><a class="nav-links-name" href="#aboutme-section">About</a></li>
+                <li><a class="nav-links-name" href="#contact-section">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <section class="welcome-section">
             <div>
-                <h1 class="div-center">Hey there. I'm Piotr</h1> 
+                <h1 class="div-center">Hey there. I'm Piotr</h1>
                 <h2 class="fancy">
-                    I'am an open-minded, motivated and self-driven C# developer. I enjoy solving problems, coming up with real-life solutions and thrive in a dynamic, challenging work environment that allows me to grow. I worked as a surveyor, freight forwarder, payroll and personal specialist and now I work as a junior sales analyst. Thanks to this experience, I have become flexible and I can easily and quickly adapt to a new situation.
-                </h2> 
-            </div>            
+                    I'am an open-minded, motivated and self-driven C# developer. I enjoy solving problems, coming up
+                    with real-life solutions and thrive in a dynamic, challenging work environment that allows me to
+                    grow. I worked as a surveyor, freight forwarder, payroll and personal specialist and now I work as a
+                    junior sales analyst. Thanks to this experience, I have become flexible and I can easily and quickly
+                    adapt to a new situation.
+                </h2>
+            </div>
             <ul class="top-icons">
                 <li class="top-icons-li">
                     <address>
@@ -46,12 +57,12 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section id="projects-section">
             <h1>My Recent Works</h1>
             <ul class="projects">
                 <li class="project">
                     <div>
-                        <h2>Bookstore managment API</h2>
+                        <h2>Bookstore management API</h2>
                         <p class="education-languages-p">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Culpa nam dolores quibusdam possimus animi ullam voluptatem
@@ -81,7 +92,24 @@
                                 <img src="images/icon-git.png">
                             </a>
                         </div>
-                    </div>
+                        <ul>
+                            <li>
+                                <h2 class="contentP">Used skills</h2>
+                            </li>
+                            <li>
+                                <div class="containerPlus">
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, atque
+                                            repellat praesentium ducimus nostrum laborum voluptates, dignissimos
+                                            necessitatibus labore id quia iusto explicabo unde reiciendis pariatur deleniti
+                                            ipsum numquam nihil.</p>
+                                    </div>
+                                    <div class="toggleBtn">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                    
                 </li>
                 <li class="project">
                     <div>
@@ -114,7 +142,24 @@
                                 <img src="images/icon-git.png">
                             </a>
                         </div>
-                    </div>
+                        <ul>
+                            <li>
+                                <h2 class="contentP2">Used skills</h2>
+                            </li>
+                            <li>
+                                <div class="containerPlus2">
+                                    <div class="content2">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, atque
+                                            repellat praesentium ducimus nostrum laborum voluptates, dignissimos
+                                            necessitatibus labore id quia iusto explicabo unde reiciendis pariatur deleniti
+                                            ipsum numquam nihil.</p>
+                                    </div>
+                                    <div class="toggleBtn2">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                    
                 </li>
                 <li class="project">
                     <div>
@@ -142,12 +187,28 @@
                                 <img src="images/icon-git.png">
                             </a>
                         </div>
-                    </div>
+                        <ul>
+                            <li>
+                                <h2 class="contentP3">Used skills</h2>
+                            </li>
+                            <li>
+                                <div class="containerPlus3">
+                                    <div class="content3">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, atque
+                                            repellat praesentium ducimus nostrum laborum voluptates, dignissimos
+                                            necessitatibus labore id quia iusto explicabo unde reiciendis pariatur deleniti
+                                            ipsum numquam nihil.</p>
+                                    </div>
+                                    <div class="toggleBtn3">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                    
                 </li>
             </ul>
         </section>
-
-        <section>
+        <section id="aboutme-section">
             <h1>About me</h1>
             <p class="line-height-p">
                 Hi! My name is <b>Piotr</b>, I am an open-minded, motivated and self-driven C# developer.
@@ -206,10 +267,11 @@
                     </ul>
                 </li>
             </ul>
-        </section>        
-    </main>    
+        </section>
+    </main>
 </body>
-<footer>
+<footer id="contact-section">
+    <p class="div-center div-font">Contact</p>
     <ul class="footer-icons">
         <li>
             <address>
@@ -232,4 +294,6 @@
 </footer>
 <script src="./fancy.js" async></script>
 <script src="./app.js"></script>
+<script src="./toggle.js"></script>
+
 </html>
