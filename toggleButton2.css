@@ -12,8 +12,8 @@
 }
 
 .containerPlus2.active {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     transition-delay: 0.5s;
     color: gray;
     margin-bottom: 45px;
